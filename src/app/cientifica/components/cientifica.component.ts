@@ -67,7 +67,7 @@ export class CientificaComponent implements OnInit {
    * 
    */
 
-  adicionaNumero(numero: string): void {
+  adicionarNumero(numero: string): void {
     if (this.operacao == 'null') {
       this.numero1 = this.concatenaNumero(this.numero1, numero)
     } else {
@@ -121,7 +121,7 @@ export class CientificaComponent implements OnInit {
     } else {
       this.numero2 = ''
     }
-    this.adicionaNumero(PI)
+    this.adicionarNumero(PI)
   }
 
   quadrado(): void {
